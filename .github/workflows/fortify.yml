@@ -56,10 +56,10 @@ jobs:
           sast-scan: true
         env:
           ### Required configuration when integrating with Fortify on Demand
-          FOD_URL: https://ams.fortify.com
-          FOD_TENANT: ${{secrets.FOD_TENANT}}
-          FOD_USER: ${{secrets.FOD_USER}}
-          FOD_PASSWORD: ${{secrets.FOD_PAT}}
+          FOD_URL: https://apac.fortify.com/
+          FOD_TENANT: ltfs-pov
+          FOD_USER: khalid
+          FOD_PASSWORD: Khalid@1998LTFS 
           ### Optional configuration when integrating with Fortify on Demand
           # EXTRA_PACKAGE_OPTS: -oss                       # Extra 'scancentral package' options, like '-oss'' if
                                                            # Debricked SCA scan is enabled on Fortify on Demand
